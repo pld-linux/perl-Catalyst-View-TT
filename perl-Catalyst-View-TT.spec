@@ -13,13 +13,13 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://search.cpan.org/CPAN/authors/id/M/MR/MRAMBERG/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	953275d9fb27efda941a51d1a923235d
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Catalyst >= 5.00
-BuildRequires:	perl-Template
+BuildRequires:	perl-Template-Toolkit
 BuildRequires:	perl-Template-Timer
 %endif
 BuildArch:	noarch

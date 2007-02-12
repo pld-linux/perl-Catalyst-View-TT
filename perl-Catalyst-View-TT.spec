@@ -6,7 +6,7 @@
 %define	pdir	Catalyst
 %define	pnam	View-TT
 Summary:	Catalyst::View::TT - Template View Class
-Summary(pl):	Catalyst::View::TT - klasa widoku szablonu
+Summary(pl.UTF-8):   Catalyst::View::TT - klasa widoku szablonu
 Name:		perl-Catalyst-View-TT
 Version:	0.25
 Release:	1
@@ -29,9 +29,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This is the view class for Catalyst web framework that uses Template
 Toolkit (TT) for output rendering.
 
-%description -l pl
-To jest klasa widoku dla szkieletu WWW Catalyst uøywaj±ca do
-renderowania wyj∂cia pakietu Template Toolkit (TT).
+%description -l pl.UTF-8
+To jest klasa widoku dla szkieletu WWW Catalyst u≈ºywajƒÖca do
+renderowania wyj≈õcia pakietu Template Toolkit (TT).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

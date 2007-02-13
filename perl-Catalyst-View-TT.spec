@@ -6,7 +6,7 @@
 %define	pdir	Catalyst
 %define	pnam	View-TT
 Summary:	Catalyst::View::TT - Template View Class
-Summary(pl.UTF-8):   Catalyst::View::TT - klasa widoku szablonu
+Summary(pl.UTF-8):	Catalyst::View::TT - klasa widoku szablonu
 Name:		perl-Catalyst-View-TT
 Version:	0.25
 Release:	1

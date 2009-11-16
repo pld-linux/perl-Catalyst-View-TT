@@ -8,13 +8,13 @@
 Summary:	Catalyst::View::TT - Template View Class
 Summary(pl.UTF-8):	Catalyst::View::TT - klasa widoku szablonu
 Name:		perl-Catalyst-View-TT
-Version:	0.30
+Version:	0.31
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Catalyst/Catalyst-View-TT-%{version}.tar.gz
-# Source0-md5:	11d69501f57f4a85c541dbd1ab506278
+# Source0-md5:	cc5def1a9825e5433bbb5284a69bfa22
 URL:		http://search.cpan.org/dist/Catalyst-View-TT/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
